@@ -24,5 +24,5 @@ jobs:
       - name: Run benchmarks
         uses: CodSpeedHQ/action@v3
         with:
-          run: npm exec vitest bench
+          run: npm run benchmark
           token: ${{ secrets.CODSPEED_TOKEN }}
