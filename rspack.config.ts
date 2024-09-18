@@ -54,6 +54,7 @@ export default defineConfig({
 		isDev ? new RefreshPlugin() : null
 	].filter(Boolean),
 	optimization: {
+		minimize: false,
 		minimizer: [
 			new rspack.SwcJsMinimizerRspackPlugin(),
 			new rspack.LightningCssMinimizerRspackPlugin({
