@@ -2,7 +2,7 @@ import { rspack } from '@rspack/core';
 
 import { bench, describe } from 'vitest';
 
-import config from './rspack.config';
+import config from '../rspack.config';
 
 describe('rspack', () => {
   bench(
