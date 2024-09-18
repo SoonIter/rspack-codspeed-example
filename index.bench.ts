@@ -6,7 +6,7 @@ import config from './rspack.config';
 
 describe('rspack', () => {
   bench(
-    'rspack build',
+    'run rspack build',
     async () => {
       const compiler = rspack(config);
       return new Promise(resolve =>
