@@ -48,7 +48,7 @@ export default defineConfig({
                   },
                 },
               },
-              env: { targets },
+              env: { targets: getTargets() },
             },
           },
         ],
